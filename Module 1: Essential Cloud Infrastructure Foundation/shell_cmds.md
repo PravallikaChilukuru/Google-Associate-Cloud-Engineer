@@ -1,6 +1,5 @@
 ## 🔧 Common `gcloud` Commands and Their Purpose
 
-## 🔧 Common `gcloud` Commands and Their Purpose
 
 | Command                                                        | Purpose                                                      |
 |----------------------------------------------------------------|--------------------------------------------------------------|
