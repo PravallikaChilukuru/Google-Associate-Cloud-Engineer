@@ -1,0 +1,8 @@
+## 🔧 Common `gcloud` Commands and Their Purpose
+
+| Command | Purpose |
+|--------|---------|
+| `gcloud auth list` | Shows which account is currently active |
+| `gcloud config list` | Displays your current project, region, and zone |
+| `gcloud config set project [PROJECT_ID]` | Switches your focus to a specific project |
+| `gcloud info` | Provides a big-picture summary of your current Cloud SDK setup |
