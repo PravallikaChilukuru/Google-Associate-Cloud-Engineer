@@ -7,6 +7,12 @@
 - Same region (us-central1)
 - Requirement: lowest latency & lowest cost
 
+### Options
+> A. Assign a static external IP to vm-db and have vm-web connect to it using that IP.
+> B. Use the default internal DNS name to connect from vm-web to vm-db.
+> C. Create a Global Load Balancer to route traffic between the two instances.
+> D. Configure a VPN tunnel between the two zones to encrypt the traffic.
+
 ### Best Solution ✅
 **Use internal IP / internal DNS for communication**
 
