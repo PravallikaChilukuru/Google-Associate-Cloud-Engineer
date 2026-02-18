@@ -37,3 +37,10 @@ While Cloud Storage is for "Objects" (images, videos, backups), Filestore is for
 - **What it is:** A fully managed NFS (Network File System).
 - **The Use Case:** Imagine you have 10 different Virtual Machines that all need to read and write to the same shared folder at the same time (like a shared drive in an office).
 - **Key Benefit:** It supports existing legacy apps that expect a real file system structure (/home/data/shared) rather than an API.
+  
+### Quick Module Review
+| Feature | The "Simple Language" Explanation |
+| :--- | :--- |
+| **CSEK** | You hold the physical "key" to the lock. If you lose the key, even Google can't help you get your data back. |
+| **ACL** | Changing a file from "Private" to "Public" is like taking a document out of a locked drawer and pinning it to a public bulletin board. |
+| **Lifecycle** | The "Auto-Trash" feature. You set it so you don't have to remember to delete old logs or temp files every month. |
