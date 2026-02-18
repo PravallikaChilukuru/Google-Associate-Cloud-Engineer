@@ -13,11 +13,12 @@ This is a ***"No Trespassing"*** sign for your company's devices.
 - It stops ***"Data Exfiltration"** (sending company data to a personal project).
 
 ### 2. Cloud Storage Classes (The "Cost vs. Speed" Scale)
-Storage Class	Min Duration	Best For...	Simple Logic
-Standard	0 days	Daily use, website images, "Hot" data.	Accessing many times a month.
-Nearline	30 days	Monthly backups, data you check once a month.	Accessing < once a month.
-Coldline	90 days	Disaster recovery, quarterly reports.	Accessing < once a quarter.
-Archive	365 days	Regulatory data (legal/tax) kept for years.	Accessing < once a year.
+| Storage Class | Min Duration | Best For... | Simple Logic |
+| :--- | :--- | :--- | :--- |
+| **Standard** | 0 days | Daily use, website images, "Hot" data. | Accessing many times a month. |
+| **Nearline** | 30 days | Monthly backups, data you check once a month. | Accessing < once a month. |
+| **Coldline** | 90 days | Disaster recovery, quarterly reports. | Accessing < once a quarter. |
+| **Archive** | 365 days | Regulatory data (legal/tax) kept for years. | Accessing < once a year. |
 
 > Autoclass: This is like "Smart Mode." If you don't want to guess, Autoclass moves your data between these classes automatically based on how often you actually touch the files.
 
